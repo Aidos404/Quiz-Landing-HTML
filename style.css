@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playwrite+CU:wght@100..400&display=swap');
+body{
+    background-color: rgb(46, 169, 65);
+    
+}
+.main_first {
+    min-height: 100vh;
+    background-image: url(images/rain_bk.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    max-width: 320px;
+
+}
+
+.black-head {
+    background-color: #181818;
+}
+
+.black-head img {
+    width: 24px;
+    height: 14px;
+    padding: 15px;
+}
+
+.main_first p {
+    font-size: 18px;
+    color: white;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+}
+
+.main_first h1 {
+    color: #FFC700;
+    font-size: 30px;
+}
+
+.main_first button {
+    margin-top: 150px;
+     border: none;
+    padding: 13px 25px;
+    background-color: #FFC700;
+    border-radius: 30px;
+    font-family: 'PT Serif', serif; /* Добавлено задание шрифта для кнопки */
+}
+
+.half-color-text {
+    font-size: 15px;
+}
+
+.first-half {
+    color: #FFC700;
+}
+.svg-item {
+    margin-top: 5px;
+}
+.svg-item p{
+    font-size: 12px;
+}
+.svg-item img{
+    width: 26px;
+    height: 26px;
+}
+.main-second{
+background: rgb(20,96,134);
+background: linear-gradient(90deg, rgba(20,96,134,1) 14%, rgba(14,133,173,1) 52%, rgba(0,212,255,1) 100%);
+padding: 35px;
+}
+.main-second p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.main_third {
+    background-color: #FFFFFF;
+    padding-top: 38px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 38px;
+}
+.main_third span {
+    font-weight: bold;
+}
+.main_third button {
+    padding: 13px 25px;
+    background-color: #FFC700;
+    border-radius: 30px;
+    font-family: 'PT Serif', serif; /* Добавлено задание шрифта для кнопки */
+    border: none;
+}
+.main_fourth{
+    background-image: url(images/rain_bk2.png);
+    padding-top: 15px;
+    line-height: 20px;
+    padding-bottom: 83px;
+}
+.main_fourth p{
+    color: white;
+    margin-left: 14px;
+    font-size: 20px;
+}
+.main_fourth p span {
+    color: #FFC700;
+}
+.main_fourth div {
+    background-color: #F3F3F2;
+    margin-top: 14px;
+    opacity: 0.7;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 14px;
+    padding: 1px;
+   
+}
+.main_fourth div p {
+    color: black;
+}
+.main_fourth button {
+  background-color: inherit;
+  padding: 13px 25px;
+  border-radius:30px ;
+  color: white;
+  margin-top: 15px;
+  border: #FFFFFF 1px solid;
+  margin-left: 90px;
+}
